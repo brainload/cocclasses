@@ -29,7 +29,7 @@ h1,h2,h3,h4 {
 
 h1 {
   color: #000;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -558,92 +558,39 @@ a.icon {
   font-weight: 700;
 }
 
-#single-post .blog-comment-form .form-control {
-  background: transparent;
-  border: 1px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
+#single-post .menu input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+#single-post h2{
+  font-weight: 500;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #444;
+  font-size: 1.3rem;
+}
+
+#single-post ul{
+ list-style-type:circle;
+ padding: 0 25px;
+}
+
+#single-post li{
+  color: #777;
   font-size: 16px;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
 }
-
-#single-post .blog-comment-form input[type="submit"] {
-  background: #111112;
-  border-color: transparent;
-  color: #ffffff;
-  height: 50px;
-}
-
-
-/* contact section styles
-/* ========================================== */
-#contact {
-  padding-top: 5rem;
-  padding-bottom: 0rem;
-}
-
-#contact .fa {
-  font-size: 32px;
-  padding-right: 10px;
-}
-
-#contact #map-canvas  {
-  border: none;
-  width: 100%;
-  height: 300px;
-  margin-top: 40px;
-}
-
-#contact .contact-form {
-  padding-top: 14px;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: 1px solid #eee;
-  border-radius: 0px;
-  box-shadow: none;
+#single-post h3 {
+  color: #444;
   font-size: 16px;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:hover {
-  border-color: #f0f0f0;
-}
-
-#contact textarea {min-height: 100px;}
-
-#contact input {height: 50px;}
-
-#contact input[type='submit'] {
-  background: #111112;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  transition: all 0.4s ease-in-out;
-  margin-top: 10px;
-}
-
-#contact input[type='submit']:hover {
-  background: #444;
-}
-
-.contact-submit {
-	width: 50%;
-}
-
-#contact .col-md-4 {
-  background: #fff;
-  padding: 62px 0px 32px 42px;
-  position: relative;
-  bottom: -50px;
-}
-
-
-
+  letter-spacing: 3px;
 /* footer section styles
 /* ========================================== */
 footer {
