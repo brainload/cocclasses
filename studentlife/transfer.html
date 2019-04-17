@@ -32,6 +32,35 @@
    ================================================== -->	
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
 	
+<style>
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 2px 18px 16px 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 2px 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+</style>
+
 </head>
 <body>
 
@@ -55,8 +84,31 @@
    <div class="container">
          <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.3s">
          	  <div class="blog-thumb">
-<h1>Transfer Student TIps</h1>
-<p>This page is under construction. Come back later!</p>
+<h1>Transfer Student Tips</h1>
+<p>Please note that this is general guide. If you are looking for more specific advice (for your particular situation), please talk to your advisor.</p>
+<button class="accordion"><h3>Do all my core classes transfer through to the College of Chemistry?</h3></button>
+<div class="panel"><p>Yes and no. Students who complete a year of organic chemistry (lecture and laboratory) at a community college will be given credit for satisfying Chemistry 12A-12B if they pass the American Chemical Society (ACS) Organic Chemistry Exam with a score in the 75th percentile or higher. Students who pass the ACS exam with a score in the 40th to 74th percentile will be given credit for satisfying Chem 12A.  Transfers can take the ACS exam at their own local school with someone proctoring it. Some students took this test as their final for their second semester organic chemistry course. They would have to ask that professor or proctor email your advisor with your score. More information can be found <a href="https://chemistry.berkeley.edu/ugrad/transfer-students/organic-chemistry" target="_blank">here</a>.</p>
+<p>Students who have taken general chemistry do not have to take Chem 4A or 4B, but will have to take Chem 15, along with other transfer students.</p></div>
+<button class="accordion"><h3>What happens if I don't pass the ACS organic chemistry exam? </h3></button>
+<div class="panel"><p>Depending on the score you get, there are multiple options to take. If you pass the American Chemical Society (ACS) Organic Chemistry Exam with a score in the 75th percentile or higher, you don't have to take organic chemistry (Chem 12A &12B) at UC Berkeley (YAY!). Students who pass the ACS exam with a score in the 40th to 74th percentile will be given credit for satisfying Chem 12A, so you only have to take Chem 12B which is only offered in the Spring semester. If you score lower than the 40th percentile, you will have to take Chem 12A & 12B at Cal, OR you can also ask to retake the exam. Talk to your advisor about this. 
+</p></div>
+<button class="accordion"><h3>How competitive is the COC community in classes? </h3></button>
+<div class="panel"><p>To be honest, it's pretty competitive. But that is not to say you can not survive. The best way to maintain afloat in the COC competition in classes would be to make time to go to office hours and the <a href="peerrtutoring.html">COC Peer Tutoring</a>, found <a href="https://chemistry.berkeley.edu/ugrad/current-students/tutoring" target="_blank">here</a>. Perhaps, make these hours an extra calendar on your Google Calendar so you will always know the weekly schedules. Also, there are a lot of study groups made by students within classes and organized communities (<a href="aiche.html">AIChE</a>, <a href="axs.html">Alpha Chi Sigma</a>, <a href="chemunity.html">ChemUNITY</a>, <a href="chemecar.html">ChemE Car</a>, <a href="acs.html">ACS</a>, etc.) to help you find your place on campus.  </p></div>
+<button class="accordion"><h3>Where can I find affordable housing?</h3></button>
+<div class="panel"><p>As transfers, a lot of us get last priority for on-campus housing. Regardless, on-campus housing is so expensive. As soon as you choose to come to Cal, join the multiple facebook pages for communities like on-campus housing, your incoming transfer class, and the COC transfer class. These pages help you connect with your classmates prior to even meeting anyone at Cal and can really help you find roommates to find apartments together. The chemistry fraternity, <a href="http://www.axshouse.net/" target="_blank">Alpha Chi Sigma, also has housing for fraternal and non-fraternal students at Cal</a>. </p></div>
+<button class="accordion"><h3>Research is in our academic curriculum, but I really don't plan on doing research as a career path, do I need research to graduate?</h3></button>
+<div class="panel"><p>No. Many students graduate without having done any research at all in their undergraduate career. Some students join <a href="http://calteach.berkeley.edu/" target="_blank">Cal Teach</a> as students who eventually want to go into education and teaching at the K-12 grade levels.</p>
+<p>Students who have taken general chemistry do not have to take Chem 4A or 4B, but will have to take Chem 15, along with other transfer students.</p></div>
+<button class="accordion"><h3>How do I apply for an undergraduate research position or internship?</h3></button>
+<div class="panel"><p>Honestly, just research professors on the department’s website that are of your interests. You should be able to find the email addresses in order to contact the professors themselves. Cold emails can be the way to go if you know no one at Cal yet. It is suggested to start looking as early as possible and email more than one. If you don’t get a response right away keep trying, don’t give up.</p></div>
+<button class="accordion"><h3>Should I commute?</h3></button>
+<div class="panel"><p>It always depends on the individual’s situation. Most COC students say that it is best to not commute only because it could take a toll on your social and academic environments. It makes it harder to go to a lot of networking or social event in the college that happen in the evening. However, if commuting is the only option you have then there are multiple options to take such as AC transit buses, BART or Berkeley Moves!, which is a carpool program with UC Berkeley students. More information about commuting can be found <a href="https://pt.berkeley.edu/home?fbclid=IwAR3pkq0x7TU2dR8Ytlkr4Y0drH0Zdo7jf-IvsPMHHx1YAFouOQoxzVAjiqM" target="_blank">here</a>.</p></div>
+<button class="accordion"><h3>How’s the COC culture? </h3></button>
+<div class="panel"><p>Of course, the college of chemistry can be a very competitive culture but there as mentioned above (question #3), there a multiple organizations that can help you find a place you feel welcomed. The COC advisers also definitely are always there to help you with any administrative or life advice the best they can. There is also a great tutoring program specific to the COC with peer tutors from you classes that help you get through your classes and a place for you to connect with your current classmates you may also be struggling in some classes. </p></div>
+<button class="accordion"><h3>With large lecture sizes and busy professors, how do you make yourself stand out in order to get a professor letter of recommendation? </h3></button>
+<div class="panel"><p>Try to sit in the front and don’t be afraid to ask questions in class. If you feel nervous asking a question during lectures, go to the professors or GSI’s (graduate student instructor) office hours and ask questions there. It is also just a good thing to go to as much office hours as you can to show the Professor you care about your studies and they will definitely notice that. </p></div>
+<button class="accordion"><h3>How big was the jump in difficulty from community college classes to Berkeley classes, and how can I adapt?</h3></button>
+<div class="panel"><p>Likely depends on your community college background. A lot of transfer students feel they have a lot of deficits that they may feel they to brush up on or study more about. You really wot realized that until you get to Cal. Be patient and reach out for help to peers or advisors, and you will begin to see a change.</p></div>
 		  </div>
 	 </div>
    </div>
